@@ -1,5 +1,5 @@
 FROM quay.io/eypzgod/izumi:latest
-# Install CA certificates to handle HTTPS 
+# Install CA certificates to handle HTTPS
 RUN apt-get update && apt-get install -y ca-certificates
 RUN git clone https://github.com/Akshay-Eypz/izumi-bot /root/bot/
 WORKDIR /root/bot/
