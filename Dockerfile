@@ -1,6 +1,6 @@
 FROM node:lts-buster
 
-# Install necessary system package
+# Install necessary system packages
 RUN apt-get update && \
   apt-get install -y ffmpeg git imagemagick webp && \
   npm i -g pm2 && \
