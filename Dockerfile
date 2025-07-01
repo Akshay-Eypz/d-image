@@ -12,7 +12,6 @@ RUN git clone https://github.com/Akshay-Eypz/izumi-bot /root/rndr
 # Set working directory
 WORKDIR /root/rndr
 
-# Install dependencies using npm instead of yarn
 RUN npm install --legacy-peer-deps
 
 # Start using PM2
