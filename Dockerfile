@@ -14,5 +14,4 @@ WORKDIR /root/rndr
 
 RUN npm install --legacy-peer-deps
 
-# Start using PM2
 CMD ["npm", "start"]
