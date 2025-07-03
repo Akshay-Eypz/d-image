@@ -11,7 +11,6 @@ RUN git clone https://github.com/Akshay-Eypz/izumi-bot /root/rndr
 
 # Set working director
 WORKDIR /root/rndr
-
 RUN npm install --legacy-peer-deps
 
 CMD ["npm", "start"]
