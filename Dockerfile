@@ -9,7 +9,7 @@ RUN apt-get update && \
 # Clone your repo to root/rndr
 RUN git clone https://github.com/Akshay-Eypz/izumi-bot /root/rndr
 
-# Set working director
+# Set working directo
 WORKDIR /root/rndr
 RUN npm install --legacy-peer-deps
 
